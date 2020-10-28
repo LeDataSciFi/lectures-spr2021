@@ -1,0 +1,102 @@
+# This file contains the order and numbering for all sections in the book.
+#
+# Each entry has the following schema:
+#
+# - title: mytitle   # Title of chapter or section
+#   url: /myurl  # URL of section relative to the /content/ folder.
+#   sections:  # Contains a list of more entries that make up the chapter's sections
+#   not_numbered: true  # if the section shouldn't have a number in the sidebar
+#     (e.g. Introduction or appendices)
+#   expand_sections: true  # if you'd like the sections of this chapter to always
+#     be expanded in the sidebar.
+#   external: true  # Whether the URL is an external link or points to content in the book
+#
+# Below are some special values that trigger specific behavior:
+# - search: true  # Will provide a link to a search page
+# - divider: true  # Will insert a divider in the sidebar
+# - header: My Header  # Will insert a header with no link in the sidebar
+
+
+- title: "Homepage (Schedule, Syllabus, Assignments, Resources)"
+  url: "https://ledatascifi.github.io"
+  external: true
+  not_numbered: true  
+
+- divider: true
+
+- url: /intro
+  not_numbered: true
+
+#- title: "Motivation and Getting Started"
+#  url: "/01/00_Getting_Started"
+#  not_numbered: true  
+#  sections:
+#  - title: "Motivation, Syllabus, GitHub"
+#    url: "/01/01_Motivation_and_Getting_Started"     
+#    not_numbered: false  
+#  - title: "Jupyter Basics"
+#    url: "/01/02_Jupyter_Basics"
+#  - title: "A Simple Program"
+#    url: /01/python-files/02a-a-simple-program
+#  - title: "Py Basics"
+#    url: /01/03_Digging_into_Py
+#  - title: "Golden Rules"
+#    url: /01/04_Golden_Rules
+#
+#- title: "Wrangling with Data"
+#  url: "/02/00_Data_Wrangling_Intro"
+#  not_numbered: true  
+#  sections:
+#  - title: "Intro to Numpy"
+#    url: "/02/01_Numpy"     
+#    not_numbered: false  
+#  - title: "Numpy Practice"
+#    url: "/02/01a-numpy-practice"
+#  - title: "Intro to Pandas"
+#    url: /02/02_Pandas
+#  - title: "Pandas Practice"
+#    url: /02/02a-pandas-practice
+#  - title: "Making Viz"
+#    url: /02/03_Making_Some_Viz_Happen
+#  - title: "Visualization Practice"
+#    url: /02/03a_practice
+#  - title: "Better Viz"
+#    url: /02/04_Making_Good_Viz_Happen
+#  - title: "Outro"
+#    url: /02/05_outro
+#
+#- title: "Get and Parsing Web Data"
+#  url: /03/00_World_Wide_Data
+#  not_numbered: true  
+#  sections:
+#  - title: "Getting Data"
+#    url: /03/01_Intro_to_scraping  
+#  - title: "Parsing and Searching Text"
+#    url: /03/02_parse_and_search_text
+#
+#
+#- title: "Models - Prediction and Interpretation"
+#  url: /04/00_intro
+#  not_numbered: true  
+#  sections:
+#  - title: "Modeling Intro"
+#    url: /04/01_modeling_intro  
+#  - title: "Coding in Teams"
+#    url: /04/02_git_collaboration
+#  - title: "Sharing massive files with collaborators"
+#    url: /04/02a_large_files
+#  - title: "Regression - Mechanics and Interpretation"
+#    url: /04/03_regression
+#  - title: "Intro to ML"
+#    url: /04/04_introML
+#  - title: "Sklearn starter kit"
+#    url: /04/05_sklearn
+#  - title: "Preprocessing, The Cardinal Sin, and Pipes"
+#    url: /04/06_preprocessing
+#
+
+#    subsections:
+#    - url: /01/3/subsection/subsections
+#    - url: /01/3/subsection/subsectiontwo
+
+
